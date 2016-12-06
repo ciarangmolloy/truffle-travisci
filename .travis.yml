@@ -7,8 +7,8 @@ node_js:
 before_install:
   - rm -rf node_modules
 install:
-  - dpkg -i build-essential
-  - apt-get install
+  - sudo dpkg -i build-essential
+  - sudo apt-get install
   - npm install
   - npm install -g node-gyp
   - npm install -g ethereumjs-testrpc truffle
