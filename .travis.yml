@@ -5,11 +5,16 @@ sudo: required
 node_js:
   - "6.3"
 
+env:
+  - CXX=g++-4.8
+
 addons:
   apt:
+    sources:
+      - ubuntu-toolchain-r-test
     packages:
       - build-essential
-      - g++
+      - g++-4.8
 
 before_install:
   - export CXX="g++-4.8"
@@ -22,4 +27,3 @@ install:
 script:
   - testrpc &
   - truffle test
-
