@@ -9,8 +9,10 @@ addons:
   apt:
     packages:
       - build-essential
+      - g++
 
 before_install:
+  - export CXX="g++-4.8"
   - npm install -g npm@latest
   - npm install -g ethereumjs-testrpc truffle
 
