@@ -5,8 +5,6 @@ node_js:
   - "6.3"
 
 install:
-  - npm install
-  - npm install -g node-gyp
   - npm install -g ethereumjs-testrpc truffle
 
 script:
