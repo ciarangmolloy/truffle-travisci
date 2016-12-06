@@ -3,7 +3,8 @@ node_js:
   - "6"
   - "6.1"
   - "6.3"
-
+before_install:
+  - rm -rf node_modules
 install:
   - npm install
   - npm install -g ethereumjs-testrpc truffle
