@@ -1,8 +1,8 @@
 # Test Project
 
 ## Table of Contents
-- [Lorum ipsum](#lorum-ipsum)
-- [Eu saepe](#eu-saepe)
+- [Lorum ipsum](#markdown-header-lorum-ipsum)
+- [Eu saepe](#markdown-header-eu-saepe)
 
 ## Lorum ipsum
 
